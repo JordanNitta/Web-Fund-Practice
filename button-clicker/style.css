@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border box sizing does not allow the padding to add more to the content */
+}
+
+nav{
+    height: 100px;
+    width: 1250px;
+    margin: 0px auto;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.text-1{
+    font-size:  4rem;
+    color: white;
+}
+.shawdow{
+    position: relative;
+    bottom: 5px;
+    text-shadow: 3px 3px 3px black;
+}
+.search-bar{
+    height: 40px;
+    width: 30%;
+    font-size: 1rem;
+    color: grey;
+    border: 2px solid black;
+    text-align: start;
+}
+.login{
+    height: 40px;
+    width: 10%;
+    font-size: 1.5rem;
+    background-color: blue;
+    border: 2px solid black;
+    box-shadow: 2px 5px black;
+}
+#main-content{
+    display: flex;
+    width: 1250px;
+    min-height: 800px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.left-definition{
+    height: 800px;
+    width: 800px;
+}
+.first-card{
+    display: flex;
+    height: 390px;
+    width: 80%;
+    border: 2px solid black; 
+}
+.first-card:nth-child(2){
+    height: 390px;
+    width: 80%;
+    margin-top: 11px;
+    border: 2px solid black;
+}
+.word{
+    display: inline-grid;
+    justify-content: center;
+    text-align: center;
+    height: 390px;
+    width: 30%;
+    padding: 10px 0;
+}
+.ninja{
+    font-size: 3rem;
+    color: black;
+}
+.objects-1{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.objects-2{
+    font-size: 1.5rem;
+}
+
+span{
+    font-style: italic;
+}
+.likes{
+    height: 40px;
+    width: 100%;
+    background-color: orange;
+    border: 2px solid black;
+    box-shadow: 2px 5px black;
+}
+.meaning{
+    display: flex;
+    width: 600px;
+    /* background-color: black; */
+    justify-content: center;
+    align-items: center;
+}
+.meaning-1{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+}
+#dojonary-defined{
+    height: 790px;
+    width: 300px;
+}
+.top-text-box{
+    display: flex;
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+}
+.text-inside{
+}
+.dojonary{
+    font-size: 2rem;
+    padding: 10px 10px;
+}
+.add-definition{
+    height: 40px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 50px;
+    justify-content: center;
+    background-color: green;
+    border: 3px solid black;
+    box-shadow: 2px 5px black;
+} 

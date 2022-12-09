@@ -1,0 +1,389 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+/* Nav Bar */
+nav {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    margin-left: 290px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li:first-child {
+    font-size: 40px;
+}
+
+li {
+    font-size: 20px;
+    padding: 10px;
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+li:hover {
+    color: aqua;
+}
+
+.sign-out:hover {
+    background-color: aqua;
+    transition: all 0.3s ease-in;
+}
+
+.sign-out {
+    font-size: 1.2rem;
+    height: 40px;
+    width: 140px;
+    color: white;
+    background-color: teal;
+    margin-right: 215px;
+}
+
+/* @media screen and (max-width: 768px) {
+    ul {
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+    }
+    {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: auto;
+        
+    }
+} */
+
+/* Main Box */
+#main-content {
+    display: flex;
+    min-width: 850px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Left Box */
+#left-box {
+    min-width: 850px;
+}
+
+/* Top left */
+#top-left {
+    border: 2px solid black;
+}
+
+#top-nav {
+    height: 200px;
+    background-color: teal;
+}
+
+#about-box {
+    height: 435px;
+    margin-left: 10px;
+}
+
+/* user pic */
+img {
+    height: 140px;
+    border-radius: 50%;
+    position: relative;
+    top: 110px;
+    left: 70px;
+    outline: 2px solid white;
+}
+
+/* user Name */
+h1 {
+    position: relative;
+    top: 60px;
+    left: 60px;
+}
+
+/* Location */
+.map-pin {
+    height: 30px;
+}
+
+.map-location {
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+/* About Person */
+.about-person-1 {
+    position: relative;
+    top: 80px;
+    right: 100px;
+}
+
+/* Edit Profile */
+.edit-profile {
+    margin-top: 80px;
+    display: inline-block;
+}
+
+.setting {
+    height: 25px;
+    position: relative;
+    top: 32px;
+}
+
+.profile-edit {
+    font-size: 1.2rem;
+    position: relative;
+    left: 80px;
+    top: 30px;
+}
+
+/* Education box */
+#bottom-left {
+    margin-top: 15px;
+    border: 2px solid black;
+}
+
+#education-nav {
+    height: 70px;
+    background-color: rgb(92, 91, 91);
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 20px;
+    color: white;
+}
+
+/* Education School */
+#education-about {}
+
+p {
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Date Attended */
+.date {
+    font-size: 1.5rem;
+    padding-top: 5px;
+    color: black;
+    text-align: center;
+}
+
+/* What you Learned */
+.skills {
+    font-size: 1.7rem;
+    padding-top: 5px;
+}
+
+/* Right Side */
+#right-box {
+    min-width: 400px;
+    margin-left: 15px;
+}
+
+#top-right {
+    height: 320px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+#connection-request {
+    height: 90px;
+    width: 100%;
+    background-color: rgb(92, 91, 91);
+}
+
+/* top connection request */
+.nav-text {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.number {
+    display: inline-block;
+    border-radius: 50%;
+    width: 10%;
+    background-color: aliceblue;
+
+}
+
+.text {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+
+/* Connection Request Top Box And Bottom */
+.rows-1 {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Connection Request */
+.img-box {
+    display: flex;
+    height: 80px;
+    width: 20%;
+}
+
+.name-box {
+    height: 60px;
+    width: 40%;
+}
+
+/* Accept Decline */
+.accept-decline {
+    height: 80px;
+    width: 30%;
+}
+
+.accept {
+    height: 45px;
+    position: relative;
+    top: 4px;
+    left: 3px;
+    margin-top: 10px;
+}
+
+.decline {
+    height: 45px;
+    position: relative;
+    top: 4px;
+    left: 15px;
+}
+
+.top-people-connection {
+    height: 70px;
+    height: 70px;
+    position: relative;
+    top: 4px;
+    left: 2px;
+}
+
+.people-name-5 {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.people-name-6 {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+/* Bottom Right Box*/
+#bottom-right {
+    height: 500px;
+    width: 100%;
+    margin-top: 15px;
+    border: 2px solid black;
+}
+
+#request-number {
+    height: 90px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(92, 91, 91)
+}
+
+/* your connection top bar */
+.your-connection {
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 20%;
+    background-color: aliceblue;
+}
+
+/* Bottom Box */
+#people-bottom {
+    min-width: none;
+    height: 410px;
+    width: 100%;
+}
+
+/* rows so image and photo can sit in */
+.rows-2 {
+    height: 80px;
+    width: 100%;
+    margin-top: 5px;
+
+}
+
+/* Photos of user */
+.people-2 {
+    height: 70px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+/* People Names */
+.people-name-1 {
+    font-size: 2rem;
+    position: relative;
+    bottom: 55px;
+    right: 40px;
+}
+
+.people-name-2 {
+    font-size: 2rem;
+    position: relative;
+    bottom: 55px;
+    right: 50px;
+}
+
+.people-name-3 {
+    font-size: 2rem;
+    position: relative;
+    bottom: 55px;
+    right: 40px;
+}
+
+.people-name-4 {
+    font-size: 2rem;
+    position: relative;
+    bottom: 55px;
+    right: 40px;
+}
+
+/* More Connections */
+.view-more {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    margin-top: 10px;
+    border-top: 2px solid black;
+
+}
+
+.drop-down {
+    font-size: 1.3rem;
+    margin-left: 40px;
+    padding-top: 20px;
+
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Top Nav Bar  -->
+    <nav>
+        <nav class="dojo-weather">
+            <a class="title" href="#">DojoWeather</a>
+        </nav>
+        <ul class="nav-items-1"> 
+            <li><a href="#" onclick="alert('Loading weather report Burbank')">Burbank</a></li>
+            <li><a href="#" onclick="alert('Loading weather report for Chicago')">Chicago</a></li>
+            <li><a href="#" onclick="alert('Loading weather report for Dalas')">Dalas</a></li>
+        </ul> 
+    </nav>
+    <!-- Main Content -->
+    <div id="main-content">
+        
+        <!-- City Showing Weather -->
+        <div id="city-temperature">
+            <div class="city">
+                <h1>San Jose</h1>
+            </div>
+            <div class="temperature">
+                <p class="show-temp">show temperature in</p>
+                <select>
+                    <option value="Cesius">&deg; C</option>
+                    <option value="Fahrenheit">&deg; F</option>
+                </select> 
+            </div>
+        </div>
+        <!-- Weather report for 4 days-->
+        <div class="weather">
+            <div class="weather-1">
+                <div class="date">
+                    <h2>Today</h2>
+                </div>
+                <div class="weather-photo">
+                    <img class="weather-img" src="img/some_rain.png" alt="some rain">
+                </div>
+                <div class="caption-for-days">
+                    <p>some rain</p>
+                </div>
+                <div class="temp-for-day">
+                    <h3 class="celsius">24&deg;</h3>
+                    <h3 class="fahrenheit">18&deg;</h3>
+                </div>
+            </div>
+
+            <div class="weather-1">
+                <div class="date">
+                    <h2>Tommorow</h2>
+                </div>
+                <div class="weather-photo">
+                    <img class="weather-img" src="img/some_sun.png" alt="some rain">
+                </div>
+                <div class="caption-for-days">
+                    <p>some sun</p>
+                </div>
+                <div class="temp-for-day">
+                    <h3 class="celsius">27&deg;</h3>
+                    <h3 class="fahrenheit">19&deg;</h3>
+                </div>
+            </div>
+
+            <div class="weather-1">
+                <div class="date">
+                    <h2>Friday</h2>
+                </div>
+                <div class="weather-photo">
+                    <img class="weather-img" src="img/some_clouds.png" alt="some rain">
+                </div>
+                <div class="caption-for-days">
+                    <p>some clouds</p>
+                </div>
+                <div class="temp-for-day">
+                    <h3 class="celsius">21&deg;</h3>
+                    <h3 class="fahrenheit">16&deg;</h3>
+                </div>
+            </div>
+
+            <div class="weather-1">
+                <div class="date">
+                    <h2>Saturday</h2>
+                </div>
+                <div class="weather-photo">
+                    <img class="weather-img" src="img/some_sun.png" alt="some rain">
+                </div>
+                <div class="caption-for-days">
+                    <p>some sun</p>
+                </div>
+                <div class="temp-for-day">
+                    <h3 class="celsius">26&deg;</h3>
+                    <h3 class="fahrenheit">21&deg;</h3>
+                </div>
+            </div>
+        </div>
+        <!-- Accept Cookies -->
+        <div id="cookies">
+            <img class="cookie-photo" src="img/cookie.png" alt="cookies">
+            <div id="about-cookies">
+                <h3 class="about-cookies-text">Stop! cookie time</h3>
+                <p>We use cookies (sadly not the edibles ones) to personalize<br>content and ads, to provide social media features and to<br>analyse our traffic.<a class="read-more" href="#">Read more...</a></p>
+            </div>
+            <button class="accept-button" onClick="dismiss()">I accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

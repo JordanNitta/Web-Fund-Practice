@@ -1,0 +1,124 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+nav{
+    height: 80px;
+    width: 80%;
+    background-color: black;
+    
+}
+body{
+    font-family: 'Balsamiq Sans', cursive;
+}
+.network{
+    font-size: 40px;
+    padding-top: 18px;
+    margin-left: 40px;
+    color: white;
+}
+
+.feed{
+    height: 80px;
+    width: 40%;
+    font-size: 40px;
+    padding-top: 18px;
+    color: black;
+    text-align: center;
+}
+#maincontent{
+    height: 800px;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+}
+#leftcolum{
+    height: 330px;
+    width: 20%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.userpic-1{
+    height: 130px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.advatar{
+    font-size: 20px;
+}
+.phillip{
+    font-size: 35px;
+    margin-top: 60px;
+}
+#rightcolum{
+    height: 800px;
+    width: 80%;
+    margin-left: 20px;
+}
+.namebox{
+    height: 255px;
+    width: 100%;
+    margin-bottom: 20px;   
+    border: 2px solid black;
+}
+.toplikebar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+.name-nav{
+    height: 110px;
+    width: 50%;
+    padding-left: 60px;
+    font-size: 40px;
+}
+.likebar{
+    width: 50%;
+    height: 110px;
+    display: flex;
+}
+.name1{
+    height: 110px;
+    width: 50%;
+    background-color: blue;
+}
+
+.likes-count{
+    font-size: 30px;
+    color: black;
+    margin-top: 10px;
+}
+.likebutton{
+    height: 50px;
+    width: 15%;
+    margin-top: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    box-shadow: 2px 5px;
+    background-color: orange;
+}
+.dislikebutton{
+    height: 50px;
+    width: 15%;
+    margin-top: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    box-shadow: 2px 5px;
+    background-color: orange;
+}
+.dislike-count{
+    font-size: 30px;
+    color: black;
+    margin-top: 10px;
+}
+.description{
+    height: 120px;
+    width: 100%;
+    
+}
+.name-description{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 10px;
+}

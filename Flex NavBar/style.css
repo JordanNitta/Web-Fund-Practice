@@ -1,0 +1,60 @@
+body{
+    font-family: 'Balsamiq Sans', cursive;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(65, 64, 64);
+}
+.nav-title:hover{
+    cursor: pointer;
+    transition: ease-in-out .5s;
+    color: red;
+}
+.nav-title{
+    font-size: 2.5rem;
+    padding: 0px 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+a:hover{
+    cursor: pointer;
+    transition: ease-in-out .5s;
+    color: red;
+}
+a{
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 0 40px;
+}
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: ease-in .3s;
+    background-color: rgb(193, 31, 31);
+}
+.btn{
+    font-size: 1.2rem;
+    height: 40px;
+    width: 90%;
+    margin-right: 40px;
+    background-color: rgb(7, 149, 149);
+    color: white;
+    border: 3px solid black;
+    box-shadow: 2px 5px  black;
+}

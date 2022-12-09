@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <p class="network">Network</p>
+    </nav>
+
+    <h1 class="feed">Your Feed</h1>
+
+    <div id="maincontent">
+        <div id="leftcolum">
+            <div clss="user-pic">
+                <img src="img/australianshepherd6.jpg" id="dog-pic" onmouseover="changePhoto()" onmouseout="setOldImage()"class="userpic-1" alt="profilephoto">
+            </div>
+            <a href="#" class="adavatar">Add an Advatar</a>
+            <h2 class="phillip">Koda Doe</h2>
+        </div>
+        <div id="rightcolum">
+            <div class="namebox">
+                <div class="toplikebar">
+                    <h2 class="name-nav">Neil M</h2>
+                    <div class="likebar">
+                    <p class="likes-count" id="likes1">9 like(s)</p>
+                    <button class="likebutton" onclick="love1()">Like</button>
+                    <p class="dislike-count" id="dislikes-1">14 Dislike(s)</p>
+                    <button class="dislikebutton" onclick="dislikes1()">Dislike</button>
+                    </div>
+                </div>
+                <div class="description">
+                    <h2 class="name-description">I just set up this new discord bot, let me know what you all think check it out.<a href="#"> link</a>, check it out.</h2>
+                </div>
+            </div>
+            <div class="namebox">
+                <div class="toplikebar">
+                    <h2 class="name-nav">Nichole K</h2>
+                    <div class="likebar">
+                        <p class="likes-count" id="likes2">12 like(s)</p>
+                        <button class="likebutton" onclick="love2()">Like</button>
+                        <p class="dislike-count" id="dislikes-2">4 Dislike(s)</p>
+                        <button class="dislikebutton" onclick="dislikes2()">Dislike</button>
+                    </div>
+                </div>
+                <div class="description">
+                    <h2 class="name-description">Just finished my <a href="#">next comic</a>, check it out.</h2>
+                </div>
+            </div>
+            <div class="namebox">
+                <div class="toplikebar">
+                    <h2 class="name-nav">Jim R</h2>
+                    <div class="likebar">
+                        <p class="likes-count" id="likes3">21 like(s)</p>
+                        <button class="likebutton" onclick="love3()" >Like</button>
+                        <p class="dislike-count" id="dislikes-3">20 Dislike(s)</p>
+                        <button class="dislikebutton" onclick="dislikes3()">Dislike</button>
+                    </div> 
+                </div>
+                <div class="description">
+                    <h2 class="name-description">I can't stop listening to the<a href="#"> new album </a>. Who else is liking it.</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

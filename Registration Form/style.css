@@ -1,0 +1,18 @@
+h1{
+    font-size: 40px;
+}
+
+.text-box{
+    margin-top:  10px;
+}
+
+.gender{
+    margin-top: 10px;
+}
+
+button{
+    font-size: 20px;
+    border: 2px solid black;
+    box-shadow: 2px 5px;
+}
+

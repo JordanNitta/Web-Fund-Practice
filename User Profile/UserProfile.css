@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+#square {
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    border: 3px solid grey;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#topRight {
+    width: 700px;
+    height: 150px;
+    background-color: teal;
+}
+
+#userID {
+    height: 100px;
+    margin-left: 40px;
+    box-shadow: 20px grey;
+    position: relative;
+    bottom: 40px;
+}
+
+h1 {
+    color: black;
+    text-align: left;
+    font-size: 30px;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+}
+
+#pin {
+    height: 25px;
+    width: 15px;
+    margin-left: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-left: 55px;
+    position: relative;
+    bottom: 57px;
+}
+
+h3 {
+    font-size: 18px;
+    font-style: inherit;
+    margin-left: 30px;
+    position: relative;
+    bottom: 37px;
+}
+
+h4 {
+    font-size: 18px;
+    font-style: inherit;
+    margin-left: 30px;
+    position: relative;
+    bottom: 37px;
+}
+
+#gear {
+    height: 15px;
+    margin-left: 30px;
+    position: relative;
+    bottom: 25px;
+}
+
+h5 {
+    font-size: 14px;
+    text-decoration: underline;
+    margin-left: 55px;
+    position: relative;
+    bottom: 45px;
+}

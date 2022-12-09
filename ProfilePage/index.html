@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li>Profile</li>
+            <li>Home</li>
+            <li>My Profile</li>
+            <li>Find Connections</li>
+        </ul>
+        <button class="sign-out">Sign Out</button>
+    </nav>
+
+    <!-- Main Box Holidng Bottom Portion -->
+    <div id="main-content">
+
+        <!-- Left Box Holding User Card And Education -->
+        <div id="left-box">
+            <div id="top-left">
+                <div id="top-nav">
+                    <img src="images 2/todd-s.jpg" alt="todd">
+                </div>
+                <div id="about-box">
+                    <h1>Todd Doe</h1>
+                    <img class="map-pin" src="icons 2/map-marker.png">
+                    <h1 class="map-location">Seattle</h1>
+                    <p class="about-person-1">Developer | Engineer | Problem Solver<br>Master of shawdows and the
+                        Internet!</p>
+                    <div class="edit-profile">
+                        <img class="setting" src="icons 2/gear.png" alt="edit">
+                        <a class="profile-edit" href="#">Edit Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div id="bottom-left">
+                <div id="education-nav">
+                    <h2>Education</h2>
+                </div>
+                <div id="education-about">
+                    <p>Coding Dojo - Full Stack Bootcamp</p>
+                    <p class="date">Dec 2019 - Mar 2020</p>
+                    <p class="skills">Triple black belt in Python, MERN, and C#...</p>
+                </div>
+            </div>
+        </div>
+        <!-- Connection Request And Your Connection -->
+        <div id="right-box">
+            <div id="top-right">
+                <div id="connection-request">
+                    <div class="nav-text">
+                        <p class="number">2</p>
+                        <p class="text">Connection Request</p>
+                    </div>
+                    <!-- Top Left Connection Request -->
+                    <div class="rows-1">
+                        <div class="img-box">
+                            <img class="top-people-connection" src="images 2/phil-s.jpg" alt="Phill">
+                        </div>
+                        <div class="name-box">
+                            <p class="people-name-5">Phill S</p>
+                        </div>
+                        <div class="accept-decline">
+                            <img class="accept" onclick="dismiss()" src="icons 2/accept-circle.png" alt="accept">
+                            <img class="decline" onclick="dismiss()" src="icons 2/close-circle.png" alt="decline">
+                        </div>
+                    </div>
+                    <div class="rows-1">
+                        <div class="img-box">
+                            <img class="top-people-connection" src="images 2/alayne-s.jpg" alt="Alayne-s.jpg">
+                        </div>
+                        <div class="name-box">
+                            <p class="people-name-6">Alayne S</p>
+                        </div>
+                        <div class="accept-decline">
+                            <img class="accept" onclick="dismiss()" src="icons 2/accept-circle.png" alt="accept">
+                            <img class="decline" onclick="dismiss()" src="icons 2/close-circle.png" alt="decline">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Bottom Right Your Connection -->
+            <div id="bottom-right">
+                <div id="request-number">
+                    <p class="your-connection">500+</p>
+                    <p class="text">Your Connections</p>
+                </div>
+                <!-- Your Connection People -->
+                <div id="people-bottom">
+                    <div class="rows-2">
+                        <img class="people-2" src="images 2/jane-m.jpg" alt="jane-m">
+                        <p class="people-name-1">Jane M</p>
+                    </div>
+                    <div class="rows-2">
+                        <img class="people-2" src="images 2/arry-s.jpg" alt="arry-s">
+                        <p class="people-name-2">Arry S</p>
+                    </div>
+                    <div class="rows-2">
+                        <img class="people-2" src="images 2/adrien-s.jpg" alt="adrien-s">
+                        <p class="people-name-3">Adrien S</p>
+                    </div>
+                    <div class="rows-2">
+                        <img class="people-2" src="images 2/anne-s.jpg" alt="anne-s">
+                        <p class="people-name-4">Anne S</p>
+                    </div>
+                    <!-- Bottom View More -->
+                    <div class="view-more">
+                        <a class="drop-down" href="#">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button-Clicker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <nav id="nav-content">
+            <h1 class="text-1" onMouseOver="addShawdow(this)" onMouseLeave"removeShawdow(this)">Dojonary</h1>
+            <input type="text" class="search-bar" placeholder="Search">
+            <button class="login" oncLick="logout(this)">Login</button>
+        </nav>
+    </nav>
+    <div id="main-content">
+        <div class="left-definition">
+            <div class="first-card">
+                <div class="word">
+                    <h2 class="ninja">ninja</h2>
+                    <p class="objects-1">noun</p>
+                    <p class="objects-2">Plural:<span> ninjas</span></p>
+                    <button class="likes" onclick="windowPopUp()">13 Likes</button>
+                </div>
+                <div class="meaning">
+                    <p class="meaning-1">A practitioner skiled in the <a href="#">Japanese </a>art of <a href="#">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="first-card">
+                <div class="word">
+                    <h2 class="ninja">ninja</h2>
+                    <p class="objects-1">noun</p>
+                    <p class="objects-2">Plural:<span> ninjas</span></p>
+                    <button class="likes" onClick="windowPopUp()" onClick="likes(this)">31 Likes</button>
+                </div>
+                <div class="meaning">
+                    <p class="meaning-1">A <a href="#">Programer</a> who breaks down problems with <a href="#">zen</a> -like focus</p>
+                </div>
+            </div>
+        </div>
+        <div id="dojonary-defined">
+            <div class="top-text-box">
+                <div class="text-inside">
+                    <h2 class="dojonary">Dojonary is Defined by You</h2>
+                    <button class="add-definition" onClick="disapear(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
